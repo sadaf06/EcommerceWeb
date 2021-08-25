@@ -50,7 +50,9 @@ function App() {
     }
   }
   useEffect(() => {
-    dispatch(getOrder())
+    if (auth.authenticate) {
+      dispatch(getOrder())
+    }
     // eslint-disable-next-line
   }, [])
 

@@ -39,6 +39,7 @@ const Header = (props) => {
     const logOut = () => {
         console.log("clicked")
         window.localStorage.clear();
+        window.location.reload();
     }
     const logoutbutton = () => {
         if (auth.authenticate) {
