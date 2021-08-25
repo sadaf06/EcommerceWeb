@@ -1,0 +1,29 @@
+@media screen and (max-width: 786px) {
+  html {
+    font-size: 69%;
+  }
+}
+.darkmode {
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  outline: none;
+  border: none;
+  right: 20px;
+  top: 110px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-shadow: 0.7px 1px white;
+}
+.activeDark{
+  filter: invert(1) hue-rotate(180deg);
+}
+.activeDark img{
+  filter: invert(1) hue-rotate(180deg);
+}
+.activeDark .cartbtn>button {
+  filter: invert(1) hue-rotate(180deg);
+}

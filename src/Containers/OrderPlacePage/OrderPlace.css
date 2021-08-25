@@ -1,0 +1,45 @@
+.heading{
+    background-color: hsl(194, 94%, 25%);
+    padding: 12px;
+    margin-bottom: 15px;
+    color: white;
+    margin : -10px -10px 10px -10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.addressType > input{
+    margin: 10px;
+}
+
+.SavedAddress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SavedAddress1 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.icon {
+    padding: 10px;
+    cursor: pointer;
+    color: hsla(194, 25%, 30%, 0.5);
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+.icon:hover {
+    font-size: 1.15rem;
+    color: hsl(194, 94%, 25%);
+}
+.inputfield {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.btn-con {
+    display: flex;
+    justify-content: flex-end;
+}
